@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="300dp"
+    android:height="300dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Outer Glow Effect (Light Blue) -->
+    <path
+        android:pathData="M60,40 L140,160 M60,160 L140,40"
+        android:strokeWidth="32"
+        android:strokeColor="#33BBFF"
+        android:strokeAlpha="0.6"
+        android:fillColor="#00000000" />
+
+    <!-- Inner Glow Effect (Darker Blue) -->
+    <path
+        android:pathData="M60,40 L140,160 M60,160 L140,40"
+        android:strokeWidth="24"
+        android:strokeColor="#33BBFF"
+        android:strokeAlpha="0.8"
+        android:fillColor="#00000000" />
+
+    <!-- Cross Shape -->
+    <path
+        android:pathData="M60,40 L140,160 M60,160 L140,40"
+        android:strokeWidth="16"
+        android:strokeColor="#195BCC"
+        android:strokeAlpha="1"
+        android:fillColor="#00000000" />
+
+</vector>
